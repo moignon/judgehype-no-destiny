@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Remove Destiny from Judgehype",
+  "description": "Remove Destiny from judgehype website.",
+  "version": "1.0",
+
+  "content_scripts": [ {
+    "js": [ "jquery.min.js","remove.destiny.js"],
+    "matches": [ "https://www.judgehype.com/*"]
+  }],
+  "permissions": [
+    "activeTab"
+  ]
+}
